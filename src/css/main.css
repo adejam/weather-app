@@ -1,0 +1,44 @@
+body {
+  background: url(../assets/images/bg_sunny.jpeg) center/cover no-repeat;
+}
+
+.wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  width: 90%;
+}
+
+.alert_danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.temp {
+  font-size: 64px;
+}
+
+.form_control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+
+  /* background-color: inherit; */
+  background-color: hsla(0, 0%, 100%, 0.6);
+  background-image: none;
+  background-clip: padding-box;
+
+  /* border: 1px solid #ced4da; */
+  border-radius: 0.25rem;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
