@@ -53,8 +53,13 @@ a:hover {
   color: rgb(255, 255, 255);
 }
 
-.c_pw {
+.c_gw {
   color: #f5f5f5;
+  text-shadow: rgb(197, 160, 91) 0 0 8px;
+}
+
+.c_gb {
+  color: rgb(0, 0, 0);
   text-shadow: rgb(197, 160, 91) 0 0 8px;
 }
 

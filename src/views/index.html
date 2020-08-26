@@ -5,52 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
   </head>
-  <body>
+  <body class="bg_sunny">
     <div class="h_full d_flex align_items_center justify_content_center ">
-      <div class="border_light p_10 br_10 c_pw  mw_800 wrapper">
+      <div class="border_light p_10 br_10 c_gb  mw_800 wrapper">
         <header>
-          <div class="notification alert alert_danger d_none ta_center">
+          <div class="notification alert alert_danger d_none ta_center" id="notification">
             Unconnected to server
           </div>
+          <div class="d_flex justify_content_center flex_1 basis_200 mt_10 mb_10">
+            <form class="search_form">
+              <input
+                type="text"
+                placeholder="Search for a city..."
+                class="search_box form_control bb_block"
+              />
+            </form>
+          </div>
         </header>
-        <main>
-          <section>
-            <div class="d_flex justify_content_around wrap_reverse">
-              <div class="flex_1 basis_200 mt_10 d_flex justify_content_center">
-                <div>
-                  <h2 class="city">Lagos</h2>
-                  <p class="date">10 September 2020</p>
-                  <p class="weather_type">Partly cloudy</p>
-                </div>
-              </div>
-              <div class="flex_1 basis_200 mt_10 d_flex">
-                <img src="../assets/images/sunny.png" width="64" height="64" />
-                <div class="temp">
-                  <span>30°C</span>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section>
-            <div class="d_flex justify_content_around wrap">
-              <div class="mt_10 flex_1 basis_200 d_flex justify_content_center ">
-                <div>
-                  <div>Temp</div>
-                  <div class="weather">weather</div>
-                  <div class="min_max_temp">hi/low</div>
-                </div>
-              </div>
-              <div class="d_flex align_items_center flex_1 basis_200 mt_10">
-                <input
-                  type="text"
-                  name="searchbox"
-                  placeholder="Search for a city..."
-                  class="search_box form_control bb_block"
-                />
-              </div>
-            </div>
-          </section>
-        </main>
+        <main id="main"></main>
       </div>
     </div>
   </body>
