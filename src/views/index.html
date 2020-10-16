@@ -5,5 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
   </head>
-  <body></body>
+  <body class="bg_sunny">
+    <div class="h_full d_flex align_items_center justify_content_center ">
+      <div class="border_light p_10 br_10 c_gb  mw_800 wrapper">
+        <header>
+          <div class="notification alert alert_danger d_none ta_center" id="notification">
+            Unconnected to server
+          </div>
+          <div class="d_flex justify_content_center flex_1 basis_200 mt_10 mb_10">
+            <form class="search_form">
+              <input
+                type="text"
+                placeholder="Search for a city..."
+                class="search_box form_control bb_block"
+              />
+            </form>
+          </div>
+        </header>
+        <main id="main"></main>
+      </div>
+    </div>
+  </body>
 </html>

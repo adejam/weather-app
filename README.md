@@ -8,14 +8,6 @@ The project follows the guideline of [the odin project](https://theodinproject.c
 
 It demonstrates the use of API calls, Async-Await and promises in javascript.
 
-For learning purpose:
-
-- Some codes are WET
-- Some codes have been made DRY
-- Arrow function is used
-- Destructuring assignment is used.
-- Jest for testing.
-
 ## Technology Used
 
 - HTML
@@ -29,6 +21,11 @@ For learning purpose:
 - [Bootstrap framework](https://getbootstrap.com/)
 
 - Javascript
+- Async-Await
+- DOM manipulation APIs (i.e: `querySelector()`, `event Listeners` and more);
+- Arrow function.
+- Spread Operator
+- Object literal more ES6 based syntax.
 
 - [Webpack](https://webpack.js.org/)
 
@@ -40,7 +37,7 @@ For learning purpose:
 
 ## Live Demo
 
-[Weather-app]()
+[Weather-app](adejam-weather-app.netlify.app)
 
 ### Development (Running locally)
 
