@@ -2,7 +2,7 @@
 
 > Weather-app is a weather project designed using HTML,CSS and Javascript.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot.jpg)
 
 The project follows the guideline of [the odin project](https://theodinproject.com/courses/javascript/lessons/weather-app) to build a weather app using javascript for DOM manipulation and interaction. It uses javascript functions.It uses Async-await and API calls, It uses webpack. It also uses Bootstrap for user interface design.
 
@@ -37,7 +37,7 @@ It demonstrates the use of API calls, Async-Await and promises in javascript.
 
 ## Live Demo
 
-[Weather-app](adejam-weather-app.netlify.app)
+[Weather-app](https://adejam-weather-app.netlify.app)
 
 ### Development (Running locally)
 
