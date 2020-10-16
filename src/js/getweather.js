@@ -7,7 +7,7 @@ async function getWeather(url) {
     const weather = await data.json();
     displayResults(weather);
   } catch (e) {
-    notify("There might be an error in connection or location does not have a weather forcast");
+    notify('There might be an error in connection or location does not have a weather forcast');
   }
 }
 
